@@ -1,0 +1,389 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../styles/src/gameWorldBackground.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  margin: auto;
+}
+
+#sitePresent .navbar {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+#sitePresent .navbar .navbar-brand .img-fluid {
+  max-width: 100%;
+  width: 250px;
+  height: auto;
+  margin-left: 10px;
+}
+#sitePresent .navbar #btnBars {
+  display: none;
+  font-size: 1.6em;
+  cursor: pointer;
+  color: azure;
+  border: transparent;
+  background: transparent;
+  transition: all 0.25ms ease;
+}
+#sitePresent .navbar #btnBars:active {
+  transform: rotate(90deg);
+}
+#sitePresent .navbar .navbar-nav {
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+#sitePresent .navbar .navbar-nav .nav-item {
+  font-size: 1.6em;
+  color: azure;
+}
+#sitePresent .navbar .navbar-nav .nav-item .nav-link {
+  letter-spacing: 10px;
+  color: azure;
+  text-decoration: none;
+  font-family: linkStart;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+#sitePresent .navbar .navbar-nav .nav-item .nav-link:hover {
+  color: darkred;
+}
+#sitePresent .navbar .navbar-nav .searchGame input {
+  letter-spacing: 4px;
+  font-family: linkStart;
+}
+#sitePresent .navbar .navbar-nav .searchGame #btnSearch {
+  width: 40px;
+  padding: 2px;
+  color: azure;
+  background: transparent;
+}
+#sitePresent .navbar .navbar-nav .searchGame #btnSearch:hover {
+  color: black;
+  background-color: azure;
+}
+#sitePresent .swiper-container .swiper-slide {
+  width: 100%;
+  margin-top: 15px;
+}
+#sitePresent .swiper-container .swiper-slide .row #firstPict {
+  margin-top: 8px;
+  padding: 10px;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+#sitePresent .swiper-container .swiper-slide .row .title {
+  cursor: pointer;
+  font-size: 1.8em;
+  color: azure;
+  letter-spacing: 10px;
+  font-family: eaSports;
+}
+#sitePresent .swiper-container .swiper-slide .row .listBtn {
+  display: flex;
+  flex-direction: row;
+}
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnImSim,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnRécits,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnFPS,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnOpenWorld,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnChoice,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnRPG,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnBaston,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnAdventure,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnJRPG,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnCards,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnEscape {
+  padding: 3px;
+  opacity: 1;
+  font-size: 1.1em;
+  cursor: pointer;
+  font-family: vipnagorgialla;
+  background-color: azure;
+  border: 1px solid black;
+}
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnImSim:hover,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnRécits:hover,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnFPS:hover,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnOpenWorld:hover,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnChoice:hover,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnRPG:hover,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnBaston:hover,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnAdventure:hover,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnJRPG:hover,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnCards:hover,
+#sitePresent .swiper-container .swiper-slide .row .listBtn #btnEscape:hover {
+  opacity: 0.6;
+}
+#sitePresent .swiper-container .swiper-slide .row .describe {
+  margin: 20px auto;
+  letter-spacing: 2px;
+  line-height: 40px;
+  color: azure;
+  font-size: 1.4em;
+}
+#sitePresent .swiper-container .swiper-slide .row .describe .listImg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#sitePresent .swiper-container .swiper-slide .row .describe .listImg .pictGame {
+  margin-top: 5px;
+  padding: 3px 5px 3px 5px;
+  width: 100%;
+  opacity: 1;
+  cursor: pointer;
+  height: 150px;
+}
+#sitePresent .swiper-container .swiper-slide .row .listDetails {
+  margin-top: -10px;
+  text-align: center;
+  line-height: 60px;
+}
+#sitePresent .swiper-container .swiper-slide .row .listDetails .developper {
+  font-size: 1.2em;
+  font-family: closeness;
+  color: azure;
+}
+#sitePresent .swiper-container .swiper-slide .row .listBtnBuy {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+#sitePresent .swiper-container .swiper-slide .row .listBtnBuy .btnAdd {
+  background-color: transparent;
+  font-size: 1.3em;
+  letter-spacing: 10px;
+}
+#sitePresent .swiper-container .swiper-slide .row .listBtnBuy .btnAdd .fa-solid {
+  font-size: 1.4em;
+  color: azure;
+}
+#sitePresent .swiper-container .swiper-slide .row .listBtnBuy .btnAdd .fa-solid:hover {
+  color: darkred;
+}
+#sitePresent .swiper-container .swiper-slide .row .listBtnBuy .btnAdd:active {
+  opacity: 0.7;
+  transform: translateY(4px);
+}
+#sitePresent .swiper-container .swiper-slide .row .listBtnBuy .price {
+  margin-left: 3px;
+  font-size: 1.4em;
+  font-family: eaSports;
+  color: azure;
+  background-color: transparent;
+}
+#sitePresent .swiper-container .swiper-pagination {
+  position: relative;
+  top: 5px;
+}
+
+#typesOfGames {
+  margin: 20px auto;
+}
+#typesOfGames .listTypes .categories {
+  display: block;
+  margin: 3px auto;
+  border: 1px solid black;
+  background-color: #171a21;
+  border-radius: 40px;
+  width: 33%;
+  color: azure;
+  font-family: linkStart;
+  letter-spacing: 10px;
+  font-size: 1.8em;
+  text-align: center;
+}
+#typesOfGames .listTypes .row {
+  padding: 20px;
+}
+#typesOfGames .listTypes .row .rpg,
+#typesOfGames .listTypes .row .jrpg,
+#typesOfGames .listTypes .row .fps,
+#typesOfGames .listTypes .row .moreCategory {
+  width: 100%;
+  height: 200px;
+  cursor: pointer;
+  border-radius: 40px;
+  border: 1px solid black;
+  transition: all 0.25ms ease;
+}
+#typesOfGames .listTypes .row .rpg:active,
+#typesOfGames .listTypes .row .jrpg:active,
+#typesOfGames .listTypes .row .fps:active,
+#typesOfGames .listTypes .row .moreCategory:active {
+  transform: scale(1.2);
+}
+#typesOfGames .listTypes .row .rpg .type,
+#typesOfGames .listTypes .row .jrpg .type,
+#typesOfGames .listTypes .row .fps .type,
+#typesOfGames .listTypes .row .moreCategory .type {
+  position: relative;
+  top: 40%;
+  color: azure;
+  font-size: 2em;
+  text-align: center;
+  font-family: vipnagorgialla;
+}
+#typesOfGames .listTypes .row .rpg {
+  background-color: rgb(3, 59, 3);
+}
+#typesOfGames .listTypes .row .jrpg {
+  background-color: darkgoldenrod;
+}
+#typesOfGames .listTypes .row .fps {
+  background-color: darkred;
+}
+#typesOfGames .listTypes .row .moreCategory {
+  background-color: azure;
+}
+
+#sidebarFluid {
+  background-color: #171a21;
+  position: fixed;
+  border: 1px solid azure;
+  color: azure;
+  height: 250px;
+  top: 0;
+  left: 0;
+}
+#sidebarFluid .offcanvas-header {
+  align-items: center;
+}
+#sidebarFluid .offcanvas-header .offcanvasLogo {
+  height: auto;
+  max-width: 100%;
+  width: 150px;
+}
+#sidebarFluid .offcanvas-header .btnCloseSide {
+  font-size: 1.6em;
+  color: azure;
+  border: transparent;
+  background: transparent;
+}
+#sidebarFluid .offcanvas-header .btnCloseSide:hover {
+  color: darkred;
+}
+#sidebarFluid .offcanvas-body .listShortcut {
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  width: 100%;
+  justify-content: center;
+  list-style-type: none;
+}
+#sidebarFluid .offcanvas-body .listShortcut .shortcut {
+  margin-left: 35px;
+  margin-right: 35px;
+  font-size: 1.4em;
+  letter-spacing: 10px;
+  color: azure;
+  text-decoration: none;
+  font-family: linkStart;
+}
+#sidebarFluid .offcanvas-body .listShortcut .shortcut:hover {
+  color: darkred;
+}
+#sidebarFluid .offcanvas-body .searchGame #btnSearch {
+  width: 40px;
+  padding: 2px;
+  color: azure;
+  background: transparent;
+}
+#sidebarFluid .offcanvas-body .searchGame #btnSearch:hover {
+  color: black;
+  background-color: azure;
+}
+
+@font-face {
+  font-family: linkStart;
+  src: url(styles/fonts/LinkStart.otf);
+}
+@font-face {
+  font-family: pirulen;
+  src: url(styles/fonts/Pirulen.otf);
+}
+@font-face {
+  font-family: eaSports;
+  src: url(styles/fonts/EaSports.ttf);
+}
+@font-face {
+  font-family: vipnagorgialla;
+  src: url(styles/fonts/vipnagorgialla\ rg.otf);
+}
+@font-face {
+  font-family: closeness;
+  src: url(styles/fonts/Closeness.ttf);
+}
+@media screen and (max-width: 1188px) {
+  #typesOfGames .listTypes .categories {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .col-lg-5 {
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+  }
+  .listImg {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #typesOfGames .listTypes .row .rpg,
+  #typesOfGames .listTypes .row .jrpg,
+  #typesOfGames .listTypes .row .fps,
+  #typesOfGames .listTypes .row .moreCategory {
+    margin: 10px 0px 10px 0px;
+  }
+  #sitePresent .container-fluid .navbar #btnBars {
+    display: block;
+  }
+  #sitePresent .container-fluid .navbar .navbar-nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 688px) {
+  #typesOfGames .listTypes .categories {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-lg-5 .title {
+    font-size: 28px;
+  }
+  .col-lg-5 .listBtn {
+    margin-bottom: 20px;
+  }
+  .col-lg-5 .listBtn button {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col-lg-5 .title {
+    font-size: 24px;
+  }
+  .col-lg-5 .listBtn button {
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .col-lg-5 .listDetails .col-lg-6 {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=steam.css.map */
