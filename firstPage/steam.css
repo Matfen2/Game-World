@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("../styles/src/gameWorldBackground.png");
+  background-image: url("../styles/src/GameWorldBackground.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
